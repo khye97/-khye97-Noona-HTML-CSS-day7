@@ -1,0 +1,86 @@
+body {
+  overflow-x: hidden;
+}
+
+/* navber */
+.bg-body-tertiary {
+  background-color: #fff !important;
+}
+
+.btn-outline-success {
+  color: chocolate;
+  border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+  background-color: chocolate;
+  border-color: chocolate;
+}
+
+.btn-outline-success:active {
+  color: #fff;
+  background-color: chocolate !important;
+  box-shadow: 0 0 0 .25rem rgba(25, 135, 84, .5);
+}
+
+/* Campaign-section */
+
+
+/* card-section */
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
+
+.second-line a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+
+/* mobile footer */
+@media (max-width: 48rem) {
+  .flag {
+    display: none;
+  }
+
+  .first-line {
+    text-align: center;
+  }
+
+  .second-line {
+    padding: 0 2rem;
+    border-bottom: 1px solid #392d23;
+  }
+
+  .second-line .col {
+    padding-bottom: 15px;
+  }
+
+  .mobile-footer {
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .mobile-footer img {
+    margin: 0 7px;
+  }
+}
+
+
